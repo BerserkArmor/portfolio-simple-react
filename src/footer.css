@@ -1,0 +1,15 @@
+.footer{
+    background: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+    text-align: center;
+    
+}
+
+.footer a:nth-child(1)  {
+    text-decoration: none;
+    color:#333;
+  }
+  

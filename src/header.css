@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 60px;
+    display: flex;
+    background-color: #d7dce0;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 7%;
+}
+
+.header .header__menu__logo{
+    width: 150px;
+    height: auto; 
+}
+
+.header .header__nav a{
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.header .header__nav a:hover{
+    transition: 150ms;
+    border: 2px solid #333;
+}
+

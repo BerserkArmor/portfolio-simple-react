@@ -1,0 +1,63 @@
+
+
+.home__banner{
+    background-image: url("./images/image_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0px;
+    height: 400px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__banner h1{
+    font-size: 4rem  /*(16px*4)*/;
+    text-shadow: 5px 6px black;
+    text-align: center;
+    
+}
+
+.home__subBanner{
+    background-color: #333;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+    font-size:16px;
+}
+
+.home__content{
+    padding: 0px 10%;
+    margin-top: 3rem;
+}
+
+.home__content__title h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.home__content_clusters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__content_clusters div{
+    display: flex;
+    flex-grow: 1;
+    width: 31%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    margin: 1%;
+}
+
+.home__content_clusters div a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
